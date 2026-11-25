@@ -48,4 +48,4 @@ server {
 - The servers refused my SSH key, so I could not deploy.
 
 ## Links
-- Demo video: 
+- Demo video: https://youtu.be/OkVa8PC0FO8
