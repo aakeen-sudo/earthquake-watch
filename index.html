@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Earthquake Watch</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Earthquake Watch</h1>
+  <div id="map"></div>
+  <input id="search" placeholder="Search a place...">
+  <select id="min-mag">
+    <option value="0">All magnitudes</option>
+    <option value="2">2 and above</option>
+    <option value="4">4 and above</option>
+    <option value="5">5 and above</option>
+  </select>  
+  <p id="status">Loading earthquakes...</p>
+  <div id="quake-list"></div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
